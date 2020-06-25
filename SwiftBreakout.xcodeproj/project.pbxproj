@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6735246724A43763000D7FC1 /* sparky.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6735246524A43763000D7FC1 /* sparky.sks */; };
+		6735246824A43763000D7FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6735246624A43763000D7FC1 /* Assets.xcassets */; };
 		93574F03193D5AFC00493FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93574F02193D5AFC00493FA9 /* AppDelegate.swift */; };
 		93574F05193D5AFC00493FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93574F04193D5AFC00493FA9 /* ViewController.swift */; };
 		93574F08193D5AFC00493FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93574F06193D5AFC00493FA9 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6735246524A43763000D7FC1 /* sparky.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparky.sks; sourceTree = "<group>"; };
+		6735246624A43763000D7FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93574EFD193D5AFC00493FA9 /* SwiftBreakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBreakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93574F01193D5AFC00493FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93574F02193D5AFC00493FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				935D4061193E0C48008C14A7 /* Smoke.sks */,
 				935D4062193E0C48008C14A7 /* spark.png */,
 				93574F01193D5AFC00493FA9 /* Info.plist */,
+				6735246524A43763000D7FC1 /* sparky.sks */,
+				6735246624A43763000D7FC1 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,9 +157,11 @@
 				93574F08193D5AFC00493FA9 /* Main.storyboard in Resources */,
 				935D4065193E0C48008C14A7 /* Pop.caf in Resources */,
 				935D4063193E0C48008C14A7 /* Basso.caf in Resources */,
+				6735246724A43763000D7FC1 /* sparky.sks in Resources */,
 				935D4067193E0C48008C14A7 /* spark.png in Resources */,
 				935D4064193E0C48008C14A7 /* Ping.caf in Resources */,
 				93574F0A193D5AFC00493FA9 /* Images.xcassets in Resources */,
+				6735246824A43763000D7FC1 /* Assets.xcassets in Resources */,
 				935D4066193E0C48008C14A7 /* Smoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -106,7 +106,7 @@ class MyScene: SKScene, SKPhysicsContactDelegate {
             run(_deadSound)
             _ball.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
             
-            let smokePath = Bundle.main.path(forResource: "Smoke", ofType:"sks")
+            let smokePath = Bundle.main.path(forResource: "sparky", ofType:"sks")
             let smoke = NSKeyedUnarchiver.unarchiveObject(withFile: smokePath!) as! SKEmitterNode
             smoke.position = _ball.position
             addChild(smoke)
