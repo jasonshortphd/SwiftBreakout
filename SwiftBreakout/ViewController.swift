@@ -37,7 +37,7 @@ class ViewController: UIViewController, MySceneDelegate {
         _myScene.respawn(completion:{ self.gameStart() })
     }
     
-    func respawn() {
+    @objc func respawn() {
         _myScene.respawn(completion:{ self._readyToFire = true })
     }
     
